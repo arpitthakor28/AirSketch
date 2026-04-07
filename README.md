@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# ✨ AirSketch
 
-First, run the development server:
+### *Draw in the Air — No Limits, Just Creativity*
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-FF5722?style=for-the-badge&logo=firebase&logoColor=white)](https://airsketch-f610c.web.app)
+[![Next.js](https://img.shields.io/badge/Framework-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/Library-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![Firebase](https://img.shields.io/badge/Hosting-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+
+</div>
+
+---
+
+## 📱 About AirSketch
+
+**AirSketch** is a modern web-based drawing application that allows users to **sketch using gestures and real-time interaction**, creating a seamless and intuitive digital drawing experience.
+
+> 💡 Built with performance-focused architecture and deployed on Firebase for fast, global accessibility.
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| ✋ **Gesture Drawing** | Draw using motion-based or interactive inputs |
+| ⚡ **Real-Time Rendering** | Smooth and instant drawing experience |
+| 🎨 **Smart Canvas** | Responsive and clean drawing surface |
+| 🖌️ **Drawing Tools** | Multiple tools for enhanced creativity |
+| 🌗 **Modern UI** | Minimal and visually appealing interface |
+| 🌍 **Web-Based** | No installation required |
+| 🚀 **Fast Performance** | Optimized for speed and responsiveness |
+
+---
+
+## 🏗️ Architecture & Tech Stack
+AirSketch
+├── 🌐 Frontend (Next.js / React)
+│ ├── Components (Canvas, Toolbar, UI)
+│ ├── Hooks (State & gesture handling)
+│ ├── Pages (Main drawing interface)
+│ └── Styles (Responsive design)
+│
+└── ☁️ Deployment
+├── Firebase Hosting
+└── CDN Delivery
+
+
+### 🛠️ Built With
+
+- **Framework:** Next.js  
+- **Library:** React  
+- **Language:** JavaScript / TypeScript  
+- **Canvas:** HTML5 Canvas API  
+- **Hosting:** Firebase  
+- **Design:** Modern minimal UI  
+
+---
+
+## 📸 Screenshots
+
+> *Coming soon — try the live demo below*
+
+👉 https://airsketch-f610c.web.app  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)  
+- npm or yarn  
+
+### Setup
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/AirSketch.git
+
+# 2. Navigate to project
+cd AirSketch
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Run Locally
+http://localhost:3000
+📁 Project Structure
+app/
+├── components/       # UI Components
+├── hooks/            # Custom hooks
+├── pages/            # App pages
+├── styles/           # Styling
+├── public/           # Assets
+└── utils/            # Helper functions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
